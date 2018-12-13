@@ -1,0 +1,103 @@
+user: admin
+password: 250e5bd38653cfd9d8c8b996d6e9091f
+environ-uuid: 670493ab-bdeb-4ac9-87c2-901f2d535275
+server-uuid: 670493ab-bdeb-4ac9-87c2-901f2d535275
+state-servers:
+- localhost:17070
+- 103.56.205.130:17070
+- 10.0.3.1:17070
+- 172.17.0.1:17070
+- 192.168.1.30:17070
+server-hostnames:
+- localhost:17070
+- 103.56.205.130:17070
+- 10.0.3.1:17070
+- 172.17.0.1:17070
+- 192.168.1.30:17070
+ca-cert: |
+  -----BEGIN CERTIFICATE-----
+  MIICXzCCAcigAwIBAgIBADANBgkqhkiG9w0BAQsFADBDMQ0wCwYDVQQKEwRqdWp1
+  MTIwMAYDVQQDDClqdWp1LWdlbmVyYXRlZCBDQSBmb3IgZW52aXJvbm1lbnQgImxv
+  Y2FsIjAeFw0xODEyMDYwNDUwNTZaFw0yODEyMTMwNDUwNTZaMEMxDTALBgNVBAoT
+  BGp1anUxMjAwBgNVBAMMKWp1anUtZ2VuZXJhdGVkIENBIGZvciBlbnZpcm9ubWVu
+  dCAibG9jYWwiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBb4t+fR7gff/O
+  IzWA9FFVF6PMp2vynpC9EELMTjKoEK6+CGcbY22DsLK0DBzS9Al0CJqeHvOsIhSL
+  BOaxWDjwecPXpOCVruzjo1QpgZuNNXpXoiZ5OHqkQQXOLORv0WFwFUEF7pOX+FWL
+  dz6hr1ztQapSnx0rpLNd5TYcm2A3MQIDAQABo2MwYTAOBgNVHQ8BAf8EBAMCAqQw
+  DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUJDBcZVh8FmH9GxgW2q394eTHtKow
+  HwYDVR0jBBgwFoAUJDBcZVh8FmH9GxgW2q394eTHtKowDQYJKoZIhvcNAQELBQAD
+  gYEAF62UE7Q2DfkkgQVzMu+OpHjqNLg8q0XoLop4RwJc7BoxKPW08bNUV0bNdb7n
+  IY+QmwZwNOQIIYSG7V1N+sA5sVdSEfzvVlirPrXrCT/cN15LfSXgWUF21KfLifgB
+  fDokI35ZInJ8yE1xdbtvliraxkwHvwAzC3CZP90Cysh1tQQ=
+  -----END CERTIFICATE-----
+bootstrap-config:
+  admin-secret: 250e5bd38653cfd9d8c8b996d6e9091f
+  agent-metadata-url: ""
+  agent-version: 1.25.6
+  allow-lxc-loop-mounts: false
+  api-port: 17070
+  authorized-keys: |
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9hlu5S03vD7UGb9veo9gHQCW0EJB7DjFRxerm8C1lQx5KlA+F+SXXnyQBiNoINXTizx4i/KCiMJ/Iifw+3EvPkUZgD/iecAtTvm59ivI/mHd+XGYxBbQY1Uc+Be4BjoBzD7wFFAyyMutETARAMYqOaFRWp4CZq5rfADF14haYqreyhwCFqzZz4JV+Pp5DJhjmYoCLMy2cHFIY9dejLDuhprnvaZXhMaqj4Yjvg2zlx9IPaBfkcg+ClEn55zh1bvlSPJ/kBmKegd3CD9MHIntynPJL95FbfvsUNEqsTfpVi6pMuZCrSllDdis5DnMoy5zJaZE1+iXNYBw7MZAATUah juju-client-key
+  bootstrap-addresses-delay: 10
+  bootstrap-retry-delay: 5
+  bootstrap-timeout: 600
+  ca-cert: |
+    -----BEGIN CERTIFICATE-----
+    MIICXzCCAcigAwIBAgIBADANBgkqhkiG9w0BAQsFADBDMQ0wCwYDVQQKEwRqdWp1
+    MTIwMAYDVQQDDClqdWp1LWdlbmVyYXRlZCBDQSBmb3IgZW52aXJvbm1lbnQgImxv
+    Y2FsIjAeFw0xODEyMDYwNDUwNTZaFw0yODEyMTMwNDUwNTZaMEMxDTALBgNVBAoT
+    BGp1anUxMjAwBgNVBAMMKWp1anUtZ2VuZXJhdGVkIENBIGZvciBlbnZpcm9ubWVu
+    dCAibG9jYWwiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBb4t+fR7gff/O
+    IzWA9FFVF6PMp2vynpC9EELMTjKoEK6+CGcbY22DsLK0DBzS9Al0CJqeHvOsIhSL
+    BOaxWDjwecPXpOCVruzjo1QpgZuNNXpXoiZ5OHqkQQXOLORv0WFwFUEF7pOX+FWL
+    dz6hr1ztQapSnx0rpLNd5TYcm2A3MQIDAQABo2MwYTAOBgNVHQ8BAf8EBAMCAqQw
+    DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUJDBcZVh8FmH9GxgW2q394eTHtKow
+    HwYDVR0jBBgwFoAUJDBcZVh8FmH9GxgW2q394eTHtKowDQYJKoZIhvcNAQELBQAD
+    gYEAF62UE7Q2DfkkgQVzMu+OpHjqNLg8q0XoLop4RwJc7BoxKPW08bNUV0bNdb7n
+    IY+QmwZwNOQIIYSG7V1N+sA5sVdSEfzvVlirPrXrCT/cN15LfSXgWUF21KfLifgB
+    fDokI35ZInJ8yE1xdbtvliraxkwHvwAzC3CZP90Cysh1tQQ=
+    -----END CERTIFICATE-----
+  ca-private-key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIICXQIBAAKBgQDBb4t+fR7gff/OIzWA9FFVF6PMp2vynpC9EELMTjKoEK6+CGcb
+    Y22DsLK0DBzS9Al0CJqeHvOsIhSLBOaxWDjwecPXpOCVruzjo1QpgZuNNXpXoiZ5
+    OHqkQQXOLORv0WFwFUEF7pOX+FWLdz6hr1ztQapSnx0rpLNd5TYcm2A3MQIDAQAB
+    AoGBAIayaeyWrB2fH7YnhmZZuxkJ8SHdo6m7CQbef+VMvrGRjFz/9Ox5fBUrwgTm
+    OlwbW0nVg/V/kCbZRHzZ2Nq9mEeDcnExCASfRfPMhCOZttlpwoAEYTT0XbitlJh9
+    dG9gTDJY61vQu5CatTV5fSK2zuqNw5djJw0NOOj8SEBsMgzRAkEAwhxpt0Js3+P2
+    1udjTxFA3wN5VeqxyWXcoCQw3mYQlRW/gpvyvRVFeZa0HJcPT2Q7mHodnNkyeeyQ
+    vmNBEELfcwJBAP8cBBEQURyzxsBl88grGMsTyvCQ0C0TIsy4BkMW+Jkad6moNlTW
+    YrSQqXPQ23rGt0oD0UExDntoxaDKwNyTHcsCQEZpghuc99t7WQX5p3d9/bcoDnKR
+    EO7KiW550lRKV8eMvQyGv1XBipMhjLI2RbJ53HhiC63ix8Gcg6DcZjSc3WsCQQDp
+    OKmXF/2vacNH3WzzEENIVL3xE9LdgmMMGSjQaM242nOPTNLu2FfAj4f683PTWJv0
+    NG03VivRMsWJ7BJJFM3lAkA0GfuVpjV/Q6TK8uuWt2sbe6nBk8CgB68Qa5BeQkLl
+    jeW8QePloveYgjEvfo2mYtolREINFst0FZK4vHd0bvnZ
+    -----END RSA PRIVATE KEY-----
+  container: lxc
+  default-series: ""
+  development: false
+  disable-network-management: false
+  enable-os-refresh-update: true
+  enable-os-upgrade: false
+  firewall-mode: instance
+  ignore-machine-addresses: false
+  image-metadata-url: ""
+  image-stream: ""
+  logging-config: <root>=WARNING;unit=DEBUG
+  lxc-clone: true
+  lxc-clone-aufs: false
+  name: local
+  namespace: indra-local
+  network-bridge: lxcbr0
+  prefer-ipv6: false
+  proxy-ssh: false
+  root-dir: /home/indra/.juju/local
+  set-numa-control-policy: false
+  ssl-hostname-verification: true
+  state-port: 37017
+  storage-port: 8040
+  syslog-port: 6514
+  test-mode: false
+  tools-metadata-url: ""
+  type: local
+  uuid: 670493ab-bdeb-4ac9-87c2-901f2d535275

@@ -1,0 +1,114 @@
+Ign:1 http://archive.ubuntu.com/ubuntu trusty InRelease
+Hit:2 http://ppa.launchpad.net/juju/stable/ubuntu xenial InRelease
+Hit:3 http://id.archive.ubuntu.com/ubuntu xenial InRelease
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Hit:5 http://archive.ubuntu.com/ubuntu trusty Release
+Get:6 http://id.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Hit:7 https://download.docker.com/linux/ubuntu xenial InRelease
+Hit:8 http://ppa.launchpad.net/olipo186/git-auto-deploy/ubuntu xenial InRelease
+Hit:10 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease
+Hit:11 https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017 xenial InRelease
+Hit:12 http://ppa.launchpad.net/ondrej/php/ubuntu xenial InRelease
+Get:13 http://id.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Hit:14 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Fetched 323 kB in 2s (115 kB/s)
+Reading package lists...
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-release.list:1
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/msprod.list:1 and /etc/apt/sources.list.d/mssql-tools.list:1
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.47.0-1ubuntu2.11).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cpu-checker is already the newest version (0.7-0ubuntu7).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+bridge-utils is already the newest version (1.5-9ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+rsyslog-gnutls is already the newest version (8.16.0-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cloud-utils is already the newest version (0.27-0ubuntu25.1).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cloud-image-utils is already the newest version (0.27-0ubuntu25.1).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+tmux is already the newest version (2.1-3build1).
+0 upgraded, 0 newly installed, 0 to remove and 352 not upgraded.
+3efa59868748f500839f385e146b30a8f73b8d29e06c2507f211043c8c0ef9c8  /home/indra/.juju/local/tools/1.25.6.1-xenial-amd64/tools.tar.gz
+2018-12-13 04:51:53 INFO juju.cmd supercommand.go:37 running jujud [1.25.6.1-xenial-amd64 gc]
+2018-12-13 04:51:53 INFO juju.network network.go:242 setting prefer-ipv6 to false
+2018-12-13 04:51:53 INFO juju.provider.local environprovider.go:42 opening environment "local"
+2018-12-13 04:51:54 INFO juju.agent identity.go:22 writing system identity file
+2018-12-13 04:51:54 INFO juju.mongo mongo.go:208 Ensuring mongo server is running; data directory /home/indra/.juju/local; port 37017
+2018-12-13 04:51:54 INFO juju.mongo mongo.go:372 installing juju-mongodb
+2018-12-13 04:51:54 INFO juju.utils.packaging.manager utils.go:57 Running: apt-get --option=Dpkg::Options::=--force-confold --option=Dpkg::options::=--force-unsafe-io --assume-yes --quiet install juju-mongodb
+2018-12-13 04:52:02 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:02 INFO juju.replicaset replicaset.go:78 Initiating replicaset with config replicaset.Config{Name:"juju", Version:1, Members:[]replicaset.Member{replicaset.Member{Id:1, Address:"10.0.3.1:37017", Arbiter:(*bool)(nil), BuildIndexes:(*bool)(nil), Hidden:(*bool)(nil), Priority:(*float64)(nil), Tags:map[string]string{"juju-machine-id":"0"}, SlaveDelay:(*time.Duration)(nil), Votes:(*int)(nil)}}}
+2018-12-13 04:52:03 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:04 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:04 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:05 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:05 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:06 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:06 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:07 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:07 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:07 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:08 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:08 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:09 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:09 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:10 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:10 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:11 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:11 WARNING juju.replicaset replicaset.go:98 Initiate: fetching replication status failed: cannot get replica set status: Received replSetInitiate - should come online shortly.
+2018-12-13 04:52:12 INFO juju.worker.peergrouper initiate.go:70 replica set initiated
+2018-12-13 04:52:12 INFO juju.worker.peergrouper initiate.go:71 finished MaybeInitiateMongoServer
+2018-12-13 04:52:12 INFO juju.cmd.jujud bootstrap.go:194 started mongo
+2018-12-13 04:52:12 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:14 INFO juju.state open.go:51 opening state, mongo addresses: ["127.0.0.1:37017"]; entity <nil>
+2018-12-13 04:52:14 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:14 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:14 INFO juju.state open.go:135 initializing state server environment 670493ab-bdeb-4ac9-87c2-901f2d535275
+2018-12-13 04:52:14 INFO juju.state state.go:187 running state anonymously; using unique client id
+2018-12-13 04:52:14 INFO juju.state state.go:195 creating lease client as anon-5388cbbf-ab84-40c9-8faa-fb413a1033e2
+2018-12-13 04:52:14 INFO juju.mongo open.go:125 dialled mongo successfully on address "127.0.0.1:37017"
+2018-12-13 04:52:14 INFO juju.state state.go:208 starting leadership manager
+2018-12-13 04:52:14 INFO juju.state state.go:219 creating cloud image metadata storage
+2018-12-13 04:52:14 INFO juju.state state.go:222 starting presence watcher
+2018-12-13 04:52:14 INFO juju.provider.local environprovider.go:42 opening environment "local"
+2018-12-13 04:52:14 INFO juju.agent bootstrap.go:166 initialising bootstrap machine with config: {Addresses:[public:localhost local-cloud:10.0.3.1] Constraints: Jobs:[JobManageEnviron] InstanceId:localhost Characteristics: SharedSecret:yRJD6L0yTkk4pGfbiEHjJXc0DAD4y98Vw5G62SQxryd49pg17kue7+TgouoHnOZuc2KkcogeiH1Mc3Hbx3dUt7dretYc6jN8tj/A9GNi0aZ8BXvrAfvLbxhHxb/hrPc2ZUi13OB5vLmObRKFTcraKms6YfVO8jbP3gH/mBavbmODMM6fukSfkXruOEnKrF8uGVQ455/wCo7cZuMNnqE1Wj68WKR3H87Qkk+DDMoIAzHX2382gCqUviqNWSZ4DZdNAgCzIhEdfCwsOggUd3otaXzijIhxz3e67PohS5gRDjpv+kz7XOJWXGPypjttCDnDKI8nLv1U5DWfmf7+S0jKVtf6/nsFvJAD0qg41OHOarhDJPrmyV8B1nG0rwB/M/bGv6D6qf96Vl4D+DhuOQLsdTs9MqT2ry3t7iSVHpkB+I+Mibc7WhTW1wcaQkz8iEiSVNArkKzqjQCCP3bwHTLy+Jw9eVexivZDYlhm/71WByGoA5lKm8aVnsvIGk1GzkEAF8aBuA+lD8ej4zQSx8tiF+O3M360H1OdLNBQRHWL4UsGypcdYVO5VVigz0DAYPIFFtSNjSEL0MDqRrx2/P1fYhgQPEHAgR9wcPtk94WRsVrgWXVM9lIaHwaVxTKHr+NNEX2Ggz+cNMz49zypCtVb8PI0mEfyTl2gBgG1YxRwOlj3UuHT1DOVkCG5H2pi82VbJBhXMSl8IiLOU3JgZFmVysclKiL10DAjZI10JEACQ8wQpsE7Lv5GKhBCHhi6mF4kJgigy1YON4mfAVc9Rke2bEPpXlmFLrYN7RRyqZ5kCk/kaqG6jFkXSjatBa/zg5oAj2FySql8MStRXY05hlIerS7x6jtJRFkGW2Tl5plaT34SIJmBYfSSXojOlDv0cy+UYi4tnzCQzj20Z65t8xG/aMpjf7eoD7028V1kGbR0uN8v4t49tkv7VWIaBQOPx6wbPpg7BLAeEJOR/aLl6PTkSurRv+oXa2SCU702ZDCCkSfEl/0z5A6YcWxpOvFE9efa}
+2018-12-13 04:52:14 INFO juju.provider.local environprovider.go:42 opening environment "local"
+2018-12-13 04:52:18 INFO juju.cmd supercommand.go:435 command finished
+Created symlink from /etc/systemd/system/juju-agent-indra-local.service to /var/lib/juju/init/juju-agent-indra-local/juju-agent-indra-local.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/juju-agent-indra-local.service to /var/lib/juju/init/juju-agent-indra-local/juju-agent-indra-local.service.

@@ -1,0 +1,1 @@
+{"version":"1.25.6.1-xenial-amd64","url":"file:///tmp/juju-tools660960737/tools/released/juju-1.25.6.1-xenial-amd64.tgz","sha256":"3efa59868748f500839f385e146b30a8f73b8d29e06c2507f211043c8c0ef9c8","size":16820811}
