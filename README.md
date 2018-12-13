@@ -10,6 +10,25 @@ Juju adalah salah satu tool IaC yang disediakan di sistem operasi Linux Ubuntu. 
 
 Contoh yang akan dijelaskan dibawah adalah langkah-langkah serta instalasi skema deplyment local. Untuk machine yang akan digunakan untuk menampung deployment adalah container yang dibuat dengan menggunakan LXC.
 
-# Installasi LXC #
+# Instalasi LXC #
 
 	sudo apt-get install lxc lxctl lxc-templates
+
+# Instalasi Juju #
+
+	$ sudo add-apt-repository ppa:juju/stable
+	$ sudo apt-get update
+	$ sudo apt-get install juju-local
+
+Untuk membuat IaC secara lokal, kita bisa menginstall package juju-local, namun jika kita ingin mendeploy ke cloud seperti AWS kita harus menginstall package juju-core.
+
+# Konfigurasi Deployment #
+
+Generate config untuk deployment
+
+	$ juju generate-config
+
+Command di atas akan membuat sebuah file konfigurasi deployment juju dengan format .yaml di direktori ~/.juju/environments.yaml yang berisi beberapa pilihan untuk tipe deployment. Untuk memilih tipe deployment local eksekusi command berikut.
+
+	$ juju switch local
+
